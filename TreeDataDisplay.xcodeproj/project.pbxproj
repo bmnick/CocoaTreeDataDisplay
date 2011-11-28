@@ -19,7 +19,6 @@
 		B56D919814840EC4003B6995 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56D917214840EC3003B6995 /* Cocoa.framework */; };
 		B56D91A014840EC4003B6995 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B56D919E14840EC4003B6995 /* InfoPlist.strings */; };
 		B56D91A314840EC4003B6995 /* TreeDataDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56D91A214840EC4003B6995 /* TreeDataDisplayTests.m */; };
-		B56D91AE14841121003B6995 /* BNTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B56D91AD14841121003B6995 /* BNTreeNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +53,6 @@
 		B56D919F14840EC4003B6995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B56D91A114840EC4003B6995 /* TreeDataDisplayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeDataDisplayTests.h; sourceTree = "<group>"; };
 		B56D91A214840EC4003B6995 /* TreeDataDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeDataDisplayTests.m; sourceTree = "<group>"; };
-		B56D91AC14841121003B6995 /* BNTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNTreeNode.h; sourceTree = "<group>"; };
-		B56D91AD14841121003B6995 /* BNTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNTreeNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +118,6 @@
 		B56D917814840EC3003B6995 /* TreeDataDisplay */ = {
 			isa = PBXGroup;
 			children = (
-				B56D91AC14841121003B6995 /* BNTreeNode.h */,
-				B56D91AD14841121003B6995 /* BNTreeNode.m */,
 				B56D918414840EC3003B6995 /* BNDocument.h */,
 				B56D918514840EC4003B6995 /* BNDocument.m */,
 				B56D918714840EC4003B6995 /* BNDocument.xib */,
@@ -276,7 +271,6 @@
 				B56D917F14840EC3003B6995 /* main.m in Sources */,
 				B56D918614840EC4003B6995 /* BNDocument.m in Sources */,
 				B56D918F14840EC4003B6995 /* BNDocument.xcdatamodeld in Sources */,
-				B56D91AE14841121003B6995 /* BNTreeNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

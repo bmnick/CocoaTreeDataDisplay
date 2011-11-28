@@ -7,12 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "BNTreeNode.h"
 
-@interface BNDocument : NSPersistentDocument {
-    BNTreeNode * root_node;
-}
-
-@property (nonatomic, retain) BNTreeNode * root_node;
+@interface BNDocument : NSPersistentDocument 
 
 @end
