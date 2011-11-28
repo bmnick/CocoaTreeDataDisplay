@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B567D3B61484163C000A20B3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B567D3B51484163C000A20B3 /* README.md */; };
 		B56D917314840EC3003B6995 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56D917214840EC3003B6995 /* Cocoa.framework */; };
 		B56D917D14840EC3003B6995 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B56D917B14840EC3003B6995 /* InfoPlist.strings */; };
 		B56D917F14840EC3003B6995 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56D917E14840EC3003B6995 /* main.m */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B567D3B51484163C000A20B3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		B56D916E14840EC3003B6995 /* TreeDataDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeDataDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56D917214840EC3003B6995 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B56D917514840EC3003B6995 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -79,6 +81,7 @@
 		B56D916314840EC3003B6995 = {
 			isa = PBXGroup;
 			children = (
+				B567D3B51484163C000A20B3 /* README.md */,
 				B56D917814840EC3003B6995 /* TreeDataDisplay */,
 				B56D919B14840EC4003B6995 /* TreeDataDisplayTests */,
 				B56D917114840EC3003B6995 /* Frameworks */,
@@ -234,6 +237,7 @@
 				B56D918314840EC3003B6995 /* Credits.rtf in Resources */,
 				B56D918914840EC4003B6995 /* BNDocument.xib in Resources */,
 				B56D918C14840EC4003B6995 /* MainMenu.xib in Resources */,
+				B567D3B61484163C000A20B3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +456,7 @@
 				B56D91A814840EC4003B6995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56D91A914840EC4003B6995 /* Build configuration list for PBXNativeTarget "TreeDataDisplayTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +465,7 @@
 				B56D91AB14840EC4003B6995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
