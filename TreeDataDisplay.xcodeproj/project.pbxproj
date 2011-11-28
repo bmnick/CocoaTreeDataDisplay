@@ -19,6 +19,7 @@
 		B56D919814840EC4003B6995 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56D917214840EC3003B6995 /* Cocoa.framework */; };
 		B56D91A014840EC4003B6995 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B56D919E14840EC4003B6995 /* InfoPlist.strings */; };
 		B56D91A314840EC4003B6995 /* TreeDataDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56D91A214840EC4003B6995 /* TreeDataDisplayTests.m */; };
+		B56D91AE14841121003B6995 /* BNTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B56D91AD14841121003B6995 /* BNTreeNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,22 +38,24 @@
 		B56D917514840EC3003B6995 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B56D917614840EC3003B6995 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B56D917714840EC3003B6995 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B56D917A14840EC3003B6995 /* TreeDataDisplay-Info.plist */ = {isa = PBXFileReference; path = "TreeDataDisplay-Info.plist"; sourceTree = "<group>"; };
+		B56D917A14840EC3003B6995 /* TreeDataDisplay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreeDataDisplay-Info.plist"; sourceTree = "<group>"; };
 		B56D917C14840EC3003B6995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B56D917E14840EC3003B6995 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B56D918014840EC3003B6995 /* TreeDataDisplay-Prefix.pch */ = {isa = PBXFileReference; path = "TreeDataDisplay-Prefix.pch"; sourceTree = "<group>"; };
+		B56D918014840EC3003B6995 /* TreeDataDisplay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TreeDataDisplay-Prefix.pch"; sourceTree = "<group>"; };
 		B56D918214840EC3003B6995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		B56D918414840EC3003B6995 /* BNDocument.h */ = {isa = PBXFileReference; path = BNDocument.h; sourceTree = "<group>"; };
+		B56D918414840EC3003B6995 /* BNDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNDocument.h; sourceTree = "<group>"; };
 		B56D918514840EC4003B6995 /* BNDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNDocument.m; sourceTree = "<group>"; };
 		B56D918814840EC4003B6995 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BNDocument.xib; sourceTree = "<group>"; };
 		B56D918B14840EC4003B6995 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B56D918E14840EC4003B6995 /* BNDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BNDocument.xcdatamodel; sourceTree = "<group>"; };
 		B56D919514840EC4003B6995 /* TreeDataDisplayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeDataDisplayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56D919614840EC4003B6995 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B56D919D14840EC4003B6995 /* TreeDataDisplayTests-Info.plist */ = {isa = PBXFileReference; path = "TreeDataDisplayTests-Info.plist"; sourceTree = "<group>"; };
+		B56D919D14840EC4003B6995 /* TreeDataDisplayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreeDataDisplayTests-Info.plist"; sourceTree = "<group>"; };
 		B56D919F14840EC4003B6995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B56D91A114840EC4003B6995 /* TreeDataDisplayTests.h */ = {isa = PBXFileReference; path = TreeDataDisplayTests.h; sourceTree = "<group>"; };
+		B56D91A114840EC4003B6995 /* TreeDataDisplayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeDataDisplayTests.h; sourceTree = "<group>"; };
 		B56D91A214840EC4003B6995 /* TreeDataDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeDataDisplayTests.m; sourceTree = "<group>"; };
+		B56D91AC14841121003B6995 /* BNTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNTreeNode.h; sourceTree = "<group>"; };
+		B56D91AD14841121003B6995 /* BNTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNTreeNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 		B56D917814840EC3003B6995 /* TreeDataDisplay */ = {
 			isa = PBXGroup;
 			children = (
+				B56D91AC14841121003B6995 /* BNTreeNode.h */,
+				B56D91AD14841121003B6995 /* BNTreeNode.m */,
 				B56D918414840EC3003B6995 /* BNDocument.h */,
 				B56D918514840EC4003B6995 /* BNDocument.m */,
 				B56D918714840EC4003B6995 /* BNDocument.xib */,
@@ -271,6 +276,7 @@
 				B56D917F14840EC3003B6995 /* main.m in Sources */,
 				B56D918614840EC4003B6995 /* BNDocument.m in Sources */,
 				B56D918F14840EC4003B6995 /* BNDocument.xcdatamodeld in Sources */,
+				B56D91AE14841121003B6995 /* BNTreeNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

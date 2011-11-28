@@ -10,6 +10,8 @@
 
 @implementation BNDocument
 
+@synthesize root_node;
+
 - (id)init
 {
     self = [super init];
